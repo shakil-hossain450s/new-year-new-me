@@ -23,7 +23,7 @@
   color: #151414;
   margin-bottom: 25px;
 }
-.banner-description {
+.section-description {
   font-size: 16px;
   color: #444343;
   margin-bottom: 25px;
@@ -41,4 +41,60 @@
 main {
   max-width: 1140px;
   margin: 130px auto;
+}
+/* failure part styles */
+.failure-part {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.section-title {
+  font-size: 35px;
+  color: #151414;
+  margin-bottom: 25px;
+}
+.failure-list {
+  color: #444343;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.fa-check {
+  color: #16d887;
+  margin-right: 10px;
+}
+/* my plan styles */
+.my-plan {
+  margin: 130px 0;
+}
+.my-plan .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.plans {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.plan {
+  text-align: center;
+}
+.plan img {
+  width: 92.6px;
+  height: 92.6px;
+  margin-bottom: 15px;
+}
+.plan .plan-title {
+  font-size: 24px;
+  color: #151414;
+  margin-bottom: 8px;
+}
+.plan .plan-description {
+  font-size: 20px;
+  color: #737272;
 }
