@@ -98,3 +98,25 @@ main {
   font-size: 20px;
   color: #737272;
 }
+/* small banner styles */
+.small-banner {
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 65px;
+  background-image: url(../images/gradient2.png), url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-position: left, right;
+  border-radius: 8px;
+}
+.small-banner .section-title {
+  color: #fff;
+}
+.call-now-btn {
+  background-color: #fff;
+  color: #f15b22;
+  padding: 13px 25px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
