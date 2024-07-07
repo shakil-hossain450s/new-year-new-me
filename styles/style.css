@@ -12,6 +12,16 @@ body {
     padding: 20px 30px;
 }
 
+.btn-secondary {
+    border-radius: 5px;
+    background: #fff;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 30px;
+    border: 0;
+}
+
 .section-title {
     color: #151414;
     font-size: 40px;
@@ -93,18 +103,106 @@ main {
 }
 
 /* my plans section styles */
-.my-plans{
-    & .section-title{
+.my-plans {
+    & .section-title {
         text-align: center;
         margin-bottom: 50px;
     }
 }
-.plans-container{
+
+.plans-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-     .plan{
+    .plan {
         text-align: center;
-     }
+    }
+}
+
+/* mindset banner styles */
+.mindset-banner {
+    margin-top: 150px;
+    padding: 60px;
+    background-image: url("../images/gradient2.png"), url("../images/watch.png");
+    border-radius: 8px;
+    background-repeat: no-repeat, no-repeat;
+
+    & .mindset-banner-content {
+        width: 500px;
+
+        & h2 {
+            color: #FFF;
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+/* footer styles */
+footer {
+    background: #151414;
+    padding: 130px 200px;
+    display: flex;
+    gap: 250px;
+
+    & .footer-column {
+        width: 50%;
+
+        & .footer-title {
+            color: #F8F8F8;
+            font-size: 45px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        & .section-description {
+            color: #fff;
+            margin-top: 0;
+        }
+
+        & .info-1 {
+            margin: 0;
+            margin-top: 24px;
+            margin-bottom: 16px;
+            color: #fff;
+        }
+
+        & .info-2 {
+            margin: 0;
+            color: #fff;
+        }
+
+        & .social-links {
+            margin-top: 32px;
+
+            & a {
+                text-decoration: none;
+                margin-right: 24px;
+            }
+        }
+
+
+    }
+
+    & .subscribe {
+        & .subscribe-title {
+            color: #FFF;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        & input[type="email"]{
+            width: 100%;
+            background-color: transparent;
+            color:#F3F3F3;
+            font-size: 18px;
+            outline: 0;
+            border: 1px solid #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+    }
 }
