@@ -78,7 +78,7 @@ main {
     & ul {
         margin-left: -36px;
     }
-    
+
     & li {
         color: #444343;
         line-height: 26px;
@@ -90,4 +90,21 @@ main {
             margin-right: 10px;
         }
     }
+}
+
+/* my plans section styles */
+.my-plans{
+    & .section-title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+     .plan{
+        text-align: center;
+     }
 }
