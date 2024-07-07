@@ -12,6 +12,19 @@ body {
     padding: 20px 30px;
 }
 
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    color: #444343;
+    line-height: 26px;
+    margin-top: 0;
+}
+
 /* header related styles */
 .header {
     background-image: url("../images/banner/banner1.png");
@@ -41,4 +54,40 @@ body {
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 30px;
+}
+
+/* main part styles */
+main {
+    width: 1140px;
+    margin: 150px auto;
+}
+
+/* My failures of previous year styles */
+.failures-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+
+.failures-container img {
+    width: 450px;
+}
+
+.failures-container-content {
+    & ul {
+        margin-left: -36px;
+    }
+    
+    & li {
+        color: #444343;
+        line-height: 26px;
+        margin-top: 8px;
+        list-style: none;
+
+        & i {
+            color: #16D887;
+            margin-right: 10px;
+        }
+    }
 }
